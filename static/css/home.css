@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+}
+
+.home-content {
+    font-size: 222%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.hot-data {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#container {
+    margin: 0 auto;
+    height: 20rem;
+    min-width: 20rem;
+    max-width: 30rem;
+}

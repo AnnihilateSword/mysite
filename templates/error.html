@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{# 这个必须在 extends 下面 #}
+{% load static %}
+
+{# 标题 #}
+{% block title %}我的网站|错误{% endblock %}
+
+{# CSS #}
+{% block css_styles01 %}
+
+{% endblock %}
+
+{# 导航栏链接激活 #}
+{% block nav-home-active %}active{% endblock %}
+
+{# 主体内容 #}
+{% block content %}
+    {{ message }}，<a href="{{ redirect_to }}">返回</a>
+{% endblock %}
+
