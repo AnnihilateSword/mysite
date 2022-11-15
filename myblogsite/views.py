@@ -33,9 +33,11 @@ def home(request):
     if hot_blogs_for_7_days is None:
         hot_blogs_for_7_days = get_7days_hot_blogs()
         cache.set('hot_blogs_for_7_days', hot_blogs_for_7_days, 3600)
-        print('calc')  # 调试
+#         print('calc')  # 调试
+        pass
     else:
-        print('use cache')  # 调试
+#         print('use cache')  # 调试
+        pass
 
     context = {
         'read_nums': read_nums,
